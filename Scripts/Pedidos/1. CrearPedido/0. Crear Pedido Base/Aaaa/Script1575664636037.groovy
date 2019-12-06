@@ -16,3 +16,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Pedidos/1. CrearPedido/0. Crear Pedido Base/IngresoModulo_Pedidos'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pedidos/1. CrearPedido/0. Crear Pedido Base/SeleccionarBoton_Nuevo'), [:], FailureHandling.STOP_ON_FAILURE)
+
+not_run: WebUI.comment('Seleccionar Medio')
+
+not_run: WebUI.click(findTestObject('Object Repository/Pedidos/Crear Pedido Nuevo/Crear Pedido Base/span_Medio'))
+
+not_run: WebUI.selectOptionByValue(findTestObject('Object Repository/Pedidos/Crear Pedido Nuevo/Crear Pedido Base/select_Agencia de CobroEjecutivo de CuentaE_8c5ce8'), 
+    '4', true)
+
+not_run: WebUI.closeBrowser()
+

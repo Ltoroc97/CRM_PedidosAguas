@@ -49,7 +49,19 @@ WebUI.comment('Ingresar dirección')
 WebUI.click(findTestObject('Object Repository/Pedidos/Crear Pedido Nuevo/Crear Pedido Base/span_Direccin'))
 
 WebUI.setText(findTestObject('Object Repository/Pedidos/Crear Pedido Nuevo/Crear Pedido Base/input_Direccin Es el punto de prestacin del_bf55a9'), 
-    'CL 58 D CR 92 A -146')
+    'CR 52 CL 95 -92 (INTERIOR 202 )')
+
+WebUI.waitForElementPresent(findTestObject('Pedidos/Crear Pedido Nuevo/Crear Pedido Base/input_Direccin Es el punto de prestacin del_bf55a9'), 
+    5)
+
+WebUI.delay(5)
+
+WebUI.comment('Seleccionar Usuario de la Dirección')
+
+WebUI.click(findTestObject('Object Repository/Pedidos/Crear Pedido Nuevo/Crear Pedido Base/div_Rol Cliente PPS ----PropietarioPropieta_919426'))
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Pedidos/Crear Pedido Nuevo/Crear Pedido Base/select_PropietarioPropietario - UsuarioInqu_2c236e'), 
+    '4', true)
 
 WebUI.comment('Seleccionar Oficina de Atención')
 

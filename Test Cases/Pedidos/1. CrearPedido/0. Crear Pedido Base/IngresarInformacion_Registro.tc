@@ -3,6 +3,9 @@
    <description></description>
    <name>IngresarInformacion_Registro</name>
    <tag></tag>
-   <comment></comment>
+   <comment>Seleccionar Oferta por Negocio
+Selección Cliente
+Ingresar dirección
+Seleccionar Usuario de la Dirección</comment>
    <testCaseGuid>0da35053-bb9f-4bb3-a6c9-b857efe23af1</testCaseGuid>
 </TestCaseEntity>
