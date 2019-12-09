@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Seleccionar Oficina Atencin</name>
+   <name>input_--_epm_oficinaatencion_ledit</name>
    <tag></tag>
-   <elementGuidId>6e2c2bb3-d36e-472d-9d05-94626719ffa3</elementGuidId>
+   <elementGuidId>520978f4-3ef4-4639-82bc-b2b1735f69f4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//iframe[@id='contentIFrame1']</value>
+         <value>//input[@id='epm_oficinaatencion_ledit']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,83 +17,111 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>iframe</value>
+      <value>input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>frameborder</name>
+      <name>class</name>
       <type>Main</type>
-      <value>0</value>
+      <value>ms-crm-InlineInput ms-crm-InlineLookupEdit</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ime-mode</name>
+      <type>Main</type>
+      <value>auto</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-labelledby</name>
+      <type>Main</type>
+      <value>epm_oficinaatencion_c epm_oficinaatencion_w</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>contentIFrame1</value>
+      <value>epm_oficinaatencion_ledit</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>maxlength</name>
       <type>Main</type>
-      <value>contentIFrame1</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>title</name>
-      <type>Main</type>
-      <value>Área de contenido</value>
+      <value>1000</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;contentIFrame1&quot;)</value>
+      <value>id(&quot;epm_oficinaatencion_ledit&quot;)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Pedidos/Crear Pedido Base/iframe_Abra este formulario en el editor de_0ff97b</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//iframe[@id='contentIFrame1']</value>
+      <value>//input[@id='epm_oficinaatencion_ledit']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='crmContentPanel']/iframe[2]</value>
+      <value>//table[@id='epm_oficinaatencion_lookupTable']/tbody/tr/td/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cargando...'])[1]/following::iframe[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='--'])[5]/following::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Abra este formulario en el editor de formularios.'])[1]/following::iframe[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Oficina de Atención --'])[1]/following::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'contentIFrame1', '&quot;', ')')])[1]/preceding::iframe[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Debe proporcionar un valor para Oficina de Atención.'])[1]/preceding::input[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Debe proporcionar un valor para Oficina de Atención.'])[2]/preceding::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//iframe[2]</value>
+      <value>//div[5]/table/tbody/tr[3]/td[2]/div/div[2]/table/tbody/tr/td/input</value>
    </webElementXpaths>
 </WebElementEntity>

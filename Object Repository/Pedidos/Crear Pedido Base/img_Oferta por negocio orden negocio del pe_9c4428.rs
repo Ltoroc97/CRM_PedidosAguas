@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Ingreso Direccion</name>
+   <name>img_Oferta por negocio orden negocio del pe_9c4428</name>
    <tag></tag>
-   <elementGuidId>0710f597-e565-4467-8519-916570d67b24</elementGuidId>
+   <elementGuidId>b1bb497a-f8ea-4641-8bea-e9a31a2fa258</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//iframe[@id='contentIFrame0']</value>
+         <value>//img[@id='epm_ofertanegocioid_i']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,97 +17,104 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>iframe</value>
+      <value>img</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>frameborder</name>
+      <name>src</name>
       <type>Main</type>
-      <value>0</value>
+      <value>/_imgs/search_hover.gif</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>contentIFrame0</value>
+      <value>epm_ofertanegocioid_i</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>alt</name>
       <type>Main</type>
-      <value>contentIFrame0</value>
+      <value>Select a value.</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ms-crm-InlineLookupEdit</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>title</name>
       <type>Main</type>
-      <value>Área de contenido</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ispreserved</name>
-      <type>Main</type>
-      <value>always</value>
+      <value>Seleccionar un valor.</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;contentIFrame0&quot;)</value>
+      <value>id(&quot;epm_ofertanegocioid_i&quot;)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Pedidos/Crear Pedido Base/iframe_Abra este formulario en el editor de_0ff97b</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//iframe[@id='contentIFrame0']</value>
+      <value>//img[@id='epm_ofertanegocioid_i']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='crmContentPanel']/iframe</value>
+      <value>//td[@id='epm_ofertanegocioid_lookupSearch']/img</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Abra este formulario en el editor de formularios.'])[1]/following::iframe[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Oferta por negocio orden negocio del pedido Obligatorio'])[1]/following::img[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Editor de formularios'])[1]/following::iframe[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='--'])[3]/following::img[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cargando...'])[1]/preceding::iframe[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha Límite de Respuesta'])[1]/preceding::img[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:img</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'contentIFrame0', '&quot;', ')')])[1]/preceding::iframe[2]</value>
+      <value>(//img[@alt='Select a value.'])[6]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//iframe</value>
+      <value>//tr[6]/td[2]/div/div[2]/table/tbody/tr/td[3]/img</value>
    </webElementXpaths>
 </WebElementEntity>

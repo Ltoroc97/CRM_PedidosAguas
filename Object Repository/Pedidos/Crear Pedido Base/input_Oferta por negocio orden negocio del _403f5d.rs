@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Edificio EPM Atencin Clientes</name>
+   <name>input_Oferta por negocio orden negocio del _403f5d</name>
    <tag></tag>
-   <elementGuidId>60ce64b9-a732-4080-bc95-90a2f25149d3</elementGuidId>
+   <elementGuidId>27b7cf39-4aa0-4872-8926-8d8182267294</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//li[@id='item30']/a[2]/span/nobr/span</value>
+         <value>//input[@id='epm_ofertanegocioid_ledit']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,83 +17,104 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>title</name>
-      <type>Main</type>
-      <value>Edificio EPM Atención Clientes</value>
+      <value>input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ms-crm-IL-MenuItem-Title ms-crm-IL-MenuItem-Title-Hover</value>
+      <value>ms-crm-InlineInput ms-crm-InlineLookupEdit</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ime-mode</name>
+      <type>Main</type>
+      <value>auto</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-labelledby</name>
+      <type>Main</type>
+      <value>epm_ofertanegocioid_c epm_ofertanegocioid_w</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>type</name>
       <type>Main</type>
-      <value>Edificio EPM Atención Clientes</value>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>epm_ofertanegocioid_ledit</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>maxlength</name>
+      <type>Main</type>
+      <value>1000</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;item30&quot;)/a[@class=&quot;ms-crm-IL-MenuItem-Anchor ms-crm-IL-MenuItem-Anchor-Hover&quot;]/span[1]/nobr[@class=&quot;ms-crm-IL-MenuItem-Title ms-crm-IL-MenuItem-Title-Hover&quot;]/span[@class=&quot;ms-crm-IL-MenuItem-Title ms-crm-IL-MenuItem-Title-Hover&quot;]</value>
+      <value>id(&quot;epm_ofertanegocioid_ledit&quot;)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Pedidos/Crear Pedido Nuevo/Crear Pedido Base/Seleccionar Oficina Atencin</value>
+      <value>Object Repository/Pedidos/Crear Pedido Base/iframe_Abra este formulario en el editor de_0ff97b</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@id='epm_ofertanegocioid_ledit']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//li[@id='item30']/a[2]/span/nobr/span</value>
+      <value>//table[@id='epm_ofertanegocioid_lookupTable']/tbody/tr/td/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edificio EPM'])[2]/following::span[5]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Oferta por negocio orden negocio del pedido Obligatorio'])[1]/following::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edificio EPM'])[1]/following::span[10]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='--'])[3]/following::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Buscar más registros'])[3]/preceding::span[4]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nuevo'])[3]/preceding::span[6]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha Límite de Respuesta'])[1]/preceding::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[13]/div[2]/ul/li[3]/a[2]/span/nobr/span</value>
+      <value>//tr[6]/td[2]/div/div[2]/table/tbody/tr/td/input</value>
    </webElementXpaths>
 </WebElementEntity>

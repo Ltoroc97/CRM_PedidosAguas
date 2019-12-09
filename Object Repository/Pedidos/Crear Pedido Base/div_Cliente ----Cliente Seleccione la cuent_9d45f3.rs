@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Oferta por negocio ----Oferta por negoc_a67131</name>
+   <name>div_Cliente ----Cliente Seleccione la cuent_9d45f3</name>
    <tag></tag>
-   <elementGuidId>7821f7e2-7f93-4b30-8625-f2bba6f24cd8</elementGuidId>
+   <elementGuidId>39166497-9606-492c-a463-6e2479edc6a7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='epm_ofertanegocioid']</value>
+         <value>//div[@id='customerid']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -24,14 +24,14 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>epm_ofertanegocioid</value>
+      <value>customerid</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-attributename</name>
       <type>Main</type>
-      <value>epm_ofertanegocioid</value>
+      <value>customerid</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -59,7 +59,7 @@
       <matchCondition>equals</matchCondition>
       <name>tabindex</name>
       <type>Main</type>
-      <value>1050</value>
+      <value>1130</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,35 +101,35 @@
       <matchCondition>equals</matchCondition>
       <name>showglobalquickcreate</name>
       <type>Main</type>
-      <value>0</value>
+      <value>1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>openfullform</name>
       <type>Main</type>
-      <value>1</value>
+      <value>0</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>entitylogicalname</name>
       <type>Main</type>
-      <value>epm_pypofertanegocio</value>
+      <value>contact</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>entitydisplayname</name>
       <type>Main</type>
-      <value>Oferta por negocio</value>
+      <value>Contacto</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>entitytypecode</name>
       <type>Main</type>
-      <value>10490</value>
+      <value>2</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -143,14 +143,14 @@
       <matchCondition>equals</matchCondition>
       <name>disablequickfind</name>
       <type>Main</type>
-      <value>1</value>
+      <value>0</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>disableviewpicker</name>
       <type>Main</type>
-      <value>1</value>
+      <value>0</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -185,42 +185,21 @@
       <matchCondition>equals</matchCondition>
       <name>defaultviewid</name>
       <type>Main</type>
-      <value>{D88218D4-26C8-4490-AC3E-A2D2BC1A1E35}</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>relationshipid</name>
-      <type>Main</type>
-      <value>epm_businessunit_pypofertanegocio</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>dependantattributename</name>
-      <type>Main</type>
-      <value>salesorder.epm_unidadnegocio</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>dependantattributetype</name>
-      <type>Main</type>
-      <value>10</value>
+      <value>{A9AF0AB8-861D-4CFA-92A5-C6281FED7FAB}</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ms-crm-Inline-Chrome lookup ms-crm-Inline-Chrome nvarchar</value>
+      <value>ms-crm-Inline-Chrome customer ms-crm-Inline-Chrome nvarchar</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-describedby</name>
       <type>Main</type>
-      <value>epm_ofertanegocioid_c</value>
+      <value>customerid_c</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -229,57 +208,57 @@
       <type>Main</type>
       <value>
 	
-		Oferta por negocio ----
-	Oferta por negocio orden negocio del pedido Obligatorio
-</value>
+		Cliente ----
+	Cliente Seleccione la cuenta o el contacto del cliente para proporcionar un vínculo rápido a detalles adicionales del cliente, como información de cuenta, actividades y oportunidades. RequiredDebe proporcionar un valor para Cliente.
+Debe proporcionar un valor para Cliente.</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;epm_ofertanegocioid&quot;)</value>
+      <value>id(&quot;customerid&quot;)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Pedidos/Crear Pedido Nuevo/Crear Pedido Base/iframe_Abra este formulario en el editor de_0ff97b</value>
+      <value>Object Repository/Pedidos/Crear Pedido Base/iframe_Abra este formulario en el editor de_0ff97b</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//div[@id='epm_ofertanegocioid']</value>
+      <value>//div[@id='customerid']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//td[@id='epm_ofertanegocioid_d']/div</value>
+      <value>//td[@id='customerid_d']/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Oferta por negocio'])[1]/following::div[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cliente'])[2]/following::div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Seleccionar fecha'])[4]/following::div[5]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Información del Cliente'])[1]/following::div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[6]/td[2]/div</value>
+      <value>//div[2]/table/tbody/tr[3]/td[2]/div</value>
    </webElementXpaths>
 </WebElementEntity>

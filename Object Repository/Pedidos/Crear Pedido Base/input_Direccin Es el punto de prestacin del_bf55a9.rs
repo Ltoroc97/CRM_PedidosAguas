@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_Agencia de CobroEjecutivo de CuentaE_8c5ce8</name>
+   <name>input_Direccin Es el punto de prestacin del_bf55a9</name>
    <tag></tag>
-   <elementGuidId>26c759e5-8b6c-4f42-af6b-ebaded40c4bf</elementGuidId>
+   <elementGuidId>331a1931-69b5-4b0a-b701-54dd0645cc17</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//select[@id='epm_canalatencion_i']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'epm_canalatencion_i' and @title = 'Medio por el que llega el pedido. Solo aplica Verbal ó escrito.' and (text() = 'Agencia de CobroEjecutivo de CuentaEscritoPresencial - Taquilla ConstructoresVerbalTelefónico - EmpresarialTelefónicoAsesor en líneaBuzón OficinasPresencial' or . = 'Agencia de CobroEjecutivo de CuentaEscritoPresencial - Taquilla ConstructoresVerbalTelefónico - EmpresarialTelefónicoAsesor en líneaBuzón OficinasPresencial') and @ref_element = 'Object Repository/Pedidos/Crear Pedido Nuevo/Crear Pedido Base/Seleccionar Medio']</value>
+         <value>//input[@id='epm_direccion_ledit']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,111 +17,104 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>select</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>epm_canalatencion_i</value>
+      <value>input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ms-crm-SelectBox ms-crm-Inline-OptionSet-AutoOpen ms-crm-Inline-HideByZeroHeight-Ie7</value>
+      <value>ms-crm-InlineInput ms-crm-InlineLookupEdit</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>title</name>
+      <name>ime-mode</name>
       <type>Main</type>
-      <value>Medio por el que llega el pedido. Solo aplica Verbal ó escrito.</value>
+      <value>auto</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-labelledby</name>
       <type>Main</type>
-      <value>epm_canalatencion_w</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>attrname</name>
-      <type>Main</type>
-      <value>epm_canalatencion</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>size</name>
-      <type>Main</type>
-      <value>10</value>
+      <value>epm_direccion_c epm_direccion_w</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>type</name>
       <type>Main</type>
-      <value>Agencia de CobroEjecutivo de CuentaEscritoPresencial - Taquilla ConstructoresVerbalTelefónico - EmpresarialTelefónicoAsesor en líneaBuzón OficinasPresencial</value>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>epm_direccion_ledit</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>maxlength</name>
+      <type>Main</type>
+      <value>1000</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;epm_canalatencion_i&quot;)</value>
+      <value>id(&quot;epm_direccion_ledit&quot;)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Pedidos/Crear Pedido Nuevo/Crear Pedido Base/Seleccionar Medio</value>
+      <value>Object Repository/Pedidos/Crear Pedido Base/iframe_Abra este formulario en el editor de_0ff97b</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//select[@id='epm_canalatencion_i']</value>
+      <value>//input[@id='epm_direccion_ledit']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='epm_canalatencion']/div[2]/select</value>
+      <value>//table[@id='epm_direccion_lookupTable']/tbody/tr/td/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Medio --'])[1]/following::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dirección Es el punto de prestación del servicio asociado al pedido. Obligatorio'])[1]/following::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Oficina a la que se Apoya'])[1]/preceding::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='--'])[6]/following::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Oficina a la que se Apoya --'])[1]/preceding::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Departamento de Respuesta'])[1]/preceding::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[3]/td[4]/div/div[2]/select</value>
+      <value>//div[4]/table/tbody/tr[3]/td[2]/div/div[2]/table/tbody/tr/td/input</value>
    </webElementXpaths>
 </WebElementEntity>

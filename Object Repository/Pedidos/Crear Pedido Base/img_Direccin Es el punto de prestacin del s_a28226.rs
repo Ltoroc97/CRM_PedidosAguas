@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Direccin</name>
+   <name>img_Direccin Es el punto de prestacin del s_a28226</name>
    <tag></tag>
-   <elementGuidId>e89ae041-c072-4113-9fb7-a6530f0d52a3</elementGuidId>
+   <elementGuidId>b4fca6f9-ae3c-43f6-8ddd-c864256d4a9f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[@id='epm_direccion_cl']</value>
+         <value>//img[@id='epm_direccion_i']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,90 +17,104 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>img</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>src</name>
       <type>Main</type>
-      <value>ms-crm-InlineEditLabelText</value>
+      <value>/_imgs/search_hover.gif</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>epm_direccion_cl</value>
+      <value>epm_direccion_i</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>alt</name>
       <type>Main</type>
-      <value>Dirección</value>
+      <value>Select a value.</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ms-crm-InlineLookupEdit</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Seleccionar un valor.</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;epm_direccion_cl&quot;)</value>
+      <value>id(&quot;epm_direccion_i&quot;)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Pedidos/Crear Pedido Nuevo/Crear Pedido Base/Ingreso Direccion</value>
+      <value>Object Repository/Pedidos/Crear Pedido Base/iframe_Abra este formulario en el editor de_0ff97b</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//span[@id='epm_direccion_cl']</value>
+      <value>//img[@id='epm_direccion_i']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//span[@id='epm_direccion_cl_span']/span</value>
+      <value>//td[@id='epm_direccion_lookupSearch']/img</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Información de la Dirección'])[1]/following::span[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dirección Es el punto de prestación del servicio asociado al pedido. Obligatorio'])[1]/following::img[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gráficos'])[1]/following::span[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='--'])[6]/following::img[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dirección --'])[1]/preceding::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Departamento de Respuesta'])[1]/preceding::img[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:img</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='--'])[9]/preceding::span[1]</value>
+      <value>(//img[@alt='Select a value.'])[12]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/table/tbody/tr[3]/td/span/span</value>
+      <value>//div[4]/table/tbody/tr[3]/td[2]/div/div[2]/table/tbody/tr/td[3]/img</value>
    </webElementXpaths>
 </WebElementEntity>

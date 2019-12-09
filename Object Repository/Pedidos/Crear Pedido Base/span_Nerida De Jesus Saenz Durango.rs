@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Oferta por negocio</name>
+   <name>span_Nerida De Jesus Saenz Durango</name>
    <tag></tag>
-   <elementGuidId>1730b103-3687-4ef9-a6a5-8236ae774beb</elementGuidId>
+   <elementGuidId>0679429a-bf42-4f38-8608-78cb5856d004</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[@id='epm_ofertanegocioid_cl']</value>
+         <value>//li[@id='item5']/a[2]/span/nobr/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -20,87 +20,80 @@
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Nerida De Jesus Saenz Durango</value>
+   </webElementProperties>
+   <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ms-crm-InlineEditLabelText</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>epm_ofertanegocioid_cl</value>
+      <value>ms-crm-IL-MenuItem-Title ms-crm-IL-MenuItem-Title-Hover</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Oferta por negocio</value>
+      <value>Nerida De Jesus Saenz Durango</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;epm_ofertanegocioid_cl&quot;)</value>
+      <value>id(&quot;item5&quot;)/a[@class=&quot;ms-crm-IL-MenuItem-Anchor ms-crm-IL-MenuItem-Anchor-Hover&quot;]/span[1]/nobr[@class=&quot;ms-crm-IL-MenuItem-Title ms-crm-IL-MenuItem-Title-Hover&quot;]/span[@class=&quot;ms-crm-IL-MenuItem-Title ms-crm-IL-MenuItem-Title-Hover&quot;]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Pedidos/Crear Pedido Nuevo/Crear Pedido Base/iframe_Abra este formulario en el editor de_0ff97b</value>
+      <value>Object Repository/Pedidos/Crear Pedido Base/iframe_Abra este formulario en el editor de_0ff97b</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//span[@id='epm_ofertanegocioid_cl']</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//span[@id='epm_ofertanegocioid_cl_span']/span</value>
+      <value>//li[@id='item5']/a[2]/span/nobr/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Seleccionar fecha'])[4]/following::span[6]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cédula'])[2]/following::span[5]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha de Radicado'])[2]/following::span[7]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nerida Castro'])[1]/following::span[5]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Oferta por negocio --'])[1]/preceding::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cédula'])[3]/preceding::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='--'])[3]/preceding::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nerida De Jesus Villada Hincapie'])[1]/preceding::span[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[6]/td/span/span</value>
+      <value>//div[10]/div[2]/ul/li[3]/a[2]/span/nobr/span</value>
    </webElementXpaths>
 </WebElementEntity>

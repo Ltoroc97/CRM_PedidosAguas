@@ -1,103 +1,127 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Nerida De Jesus Villada Hincapie</name>
+   <name>img_--_customerid_i</name>
    <tag></tag>
-   <elementGuidId>7152a9ac-571b-4c1f-83eb-b2b3916b9556</elementGuidId>
+   <elementGuidId>4d1c4736-a3bb-4177-8d12-8f9345fc2b44</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;item3&quot;)/a[@class=&quot;ms-crm-IL-MenuItem-Anchor ms-crm-IL-MenuItem-Anchor-Hover&quot;]/span[1]/nobr[@class=&quot;ms-crm-IL-MenuItem-Title ms-crm-IL-MenuItem-Title-Hover&quot;]/span[@class=&quot;ms-crm-IL-MenuItem-Title ms-crm-IL-MenuItem-Title-Hover&quot;][count(. | //*[@title = 'Nerida De Jesus Villada Hincapie' and (text() = 'Nerida De Jesus Villada Hincapie' or . = 'Nerida De Jesus Villada Hincapie') and @ref_element = 'Object Repository/Pedidos/Crear Pedido Nuevo/Crear Pedido Base/iframe_Cargando_contentIFrame1']) = count(//*[@title = 'Nerida De Jesus Villada Hincapie' and (text() = 'Nerida De Jesus Villada Hincapie' or . = 'Nerida De Jesus Villada Hincapie') and @ref_element = 'Object Repository/Pedidos/Crear Pedido Nuevo/Crear Pedido Base/iframe_Cargando_contentIFrame1'])]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//li[@id='item3']/a[2]/span/nobr/span</value>
+         <value>//img[@id='customerid_i']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>img</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>title</name>
+      <name>src</name>
       <type>Main</type>
-      <value>Nerida De Jesus Villada Hincapie</value>
+      <value>/_imgs/search_hover.gif</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>customerid_i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Select a value.</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ms-crm-IL-MenuItem-Title ms-crm-IL-MenuItem-Title-Hover</value>
+      <value>ms-crm-InlineLookupEdit</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>title</name>
       <type>Main</type>
-      <value>Nerida De Jesus Villada Hincapie</value>
+      <value>Seleccionar un valor.</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;item3&quot;)/a[@class=&quot;ms-crm-IL-MenuItem-Anchor ms-crm-IL-MenuItem-Anchor-Hover&quot;]/span[1]/nobr[@class=&quot;ms-crm-IL-MenuItem-Title ms-crm-IL-MenuItem-Title-Hover&quot;]/span[@class=&quot;ms-crm-IL-MenuItem-Title ms-crm-IL-MenuItem-Title-Hover&quot;]</value>
+      <value>id(&quot;customerid_i&quot;)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Pedidos/Crear Pedido Nuevo/Crear Pedido Base/iframe_Cargando_contentIFrame1</value>
+      <value>Object Repository/Pedidos/Crear Pedido Base/iframe_Abra este formulario en el editor de_0ff97b</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//img[@id='customerid_i']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//li[@id='item3']/a[2]/span/nobr/span</value>
+      <value>//td[@id='customerid_lookupSearch']/img</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cédula'])[3]/following::span[5]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='--'])[4]/following::img[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nerida De Jesus Saenz Durango'])[1]/following::span[5]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cliente --'])[2]/following::img[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cédula'])[4]/preceding::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Debe proporcionar un valor para Cliente.'])[1]/preceding::img[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nerida Del Carmen Avila Arrieta'])[1]/preceding::span[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Debe proporcionar un valor para Cliente.'])[2]/preceding::img[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>(//img[@alt='Select a value.'])[8]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[4]/a[2]/span/nobr/span</value>
+      <value>//tr[3]/td[2]/div/div[2]/table/tbody/tr/td[3]/img</value>
    </webElementXpaths>
 </WebElementEntity>

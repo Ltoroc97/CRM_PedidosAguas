@@ -6,6 +6,8 @@
    <comment>Seleccionar Oferta por Negocio
 Selección Cliente
 Ingresar dirección
+Seleccionar Oficina de atención
+Seleccionar Medio
 Seleccionar Usuario de la Dirección</comment>
-   <testCaseGuid>0da35053-bb9f-4bb3-a6c9-b857efe23af1</testCaseGuid>
+   <testCaseGuid>df3d335e-2c61-43c7-bcb3-216f742498a9</testCaseGuid>
 </TestCaseEntity>
