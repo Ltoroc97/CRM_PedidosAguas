@@ -22,58 +22,63 @@ WebUI.callTestCase(findTestCase('Pedidos/1. CrearPedido/0. Crear Pedido Base/Sel
 
 WebUI.comment('Seleccionar Oferta por Negocio')
 
-WebUI.click(findTestObject('Pedidos/Crear Pedido Base/div_Oferta por negocio ----Oferta por negoc_a67131'))
+WebUI.click(findTestObject('Object Repository/Pedidos/Crear Pedido Base/div_Oferta por negocio ----Oferta por negoc_a67131'))
 
-WebUI.setText(findTestObject('Pedidos/Crear Pedido Base/input_Oferta por negocio orden negocio del _403f5d'), 'Aguas')
+WebUI.setText(findTestObject('Object Repository/Pedidos/Crear Pedido Base/input_Oferta por negocio orden negocio del _403f5d'), 
+    'Aguas')
 
-WebUI.click(findTestObject('Pedidos/Crear Pedido Base/img_Oferta por negocio orden negocio del pe_9c4428'))
+WebUI.click(findTestObject('Object Repository/Pedidos/Crear Pedido Base/img_Oferta por negocio orden negocio del pe_9c4428'))
 
-WebUI.click(findTestObject('Pedidos/Crear Pedido Base/span_Aguas EPM - Oferta Bsica'))
+WebUI.click(findTestObject('Object Repository/Pedidos/Crear Pedido Base/span_Aguas EPM - Oferta Bsica'))
 
 WebUI.comment('Selección Cliente')
 
-WebUI.click(findTestObject('Pedidos/Crear Pedido Base/div_Cliente ----Cliente Seleccione la cuent_9d45f3'))
+WebUI.click(findTestObject('Object Repository/Pedidos/Crear Pedido Base/div_Cliente ----Cliente Seleccione la cuent_9d45f3'))
 
-WebUI.setText(findTestObject('Pedidos/Crear Pedido Base/input_--_customerid_ledit'), 'Nerida')
+WebUI.setText(findTestObject('Object Repository/Pedidos/Crear Pedido Base/input_--_customerid_ledit'), 'Nerida')
 
-WebUI.click(findTestObject('Pedidos/Crear Pedido Base/img_--_customerid_i'))
+WebUI.click(findTestObject('Object Repository/Pedidos/Crear Pedido Base/img_--_customerid_i'))
 
-WebUI.click(findTestObject('Pedidos/Crear Pedido Base/span_Nerida De Jesus Saenz Durango'))
+WebUI.click(findTestObject('Object Repository/Pedidos/Crear Pedido Base/span_Nerida De Jesus Saenz Durango'))
 
 WebUI.comment('Ingresar dirección')
 
-WebUI.setText(findTestObject('Pedidos/Crear Pedido Base/input_Direccin Es el punto de prestacin del_bf55a9'), 'CR 52 CL 95 -92 (INTERIOR 202 )')
+WebUI.setText(findTestObject('Object Repository/Pedidos/Crear Pedido Base/input_Direccin Es el punto de prestacin del_bf55a9'), 
+    'CR 52 CL 95 -61 (INTERIOR 101 )')
 
-WebUI.click(findTestObject('Pedidos/Crear Pedido Base/img_Direccin Es el punto de prestacin del s_a28226'))
+WebUI.click(findTestObject('Object Repository/Pedidos/Crear Pedido Base/img_Direccin Es el punto de prestacin del s_a28226'))
 
-WebUI.click(findTestObject('Pedidos/Crear Pedido Base/div_'))
+WebUI.click(findTestObject('Object Repository/Pedidos/Crear Pedido Base/div_'))
 
 WebUI.comment('Seleccionar Oficina de atención')
 
-WebUI.click(findTestObject('Pedidos/Crear Pedido Base/div_Oficina de Atencin ----Oficina de Atenc_394b41'))
+WebUI.click(findTestObject('Object Repository/Pedidos/Crear Pedido Base/div_Oficina de Atencin ----Oficina de Atenc_394b41'))
 
-WebUI.setText(findTestObject('Pedidos/Crear Pedido Base/input_--_epm_oficinaatencion_ledit'), 'Edificio Epm')
+WebUI.setText(findTestObject('Object Repository/Pedidos/Crear Pedido Base/input_--_epm_oficinaatencion_ledit'), 'Edificio Epm')
 
-WebUI.click(findTestObject('Pedidos/Crear Pedido Base/img_--_epm_oficinaatencion_i'))
+WebUI.click(findTestObject('Object Repository/Pedidos/Crear Pedido Base/img_--_epm_oficinaatencion_i'))
 
-WebUI.click(findTestObject('Pedidos/Crear Pedido Base/span_Edificio EPM'))
+WebUI.click(findTestObject('Object Repository/Pedidos/Crear Pedido Base/span_Edificio EPM'))
 
 WebUI.comment('Seleccionar Medio')
 
-WebUI.click(findTestObject('Pedidos/Crear Pedido Base/div_Medio ----Agencia de CobroEjecutivo de _1c565d'))
+WebUI.click(findTestObject('Object Repository/Pedidos/Crear Pedido Base/div_Medio ----Agencia de CobroEjecutivo de _1c565d'))
 
-WebUI.selectOptionByValue(findTestObject('Pedidos/Crear Pedido Base/select_Agencia de CobroEjecutivo de CuentaE_8c5ce8'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/Pedidos/Crear Pedido Base/select_Agencia de CobroEjecutivo de CuentaE_8c5ce8'), 
     '4', true)
+
+WebUI.delay(2)
 
 WebUI.comment('Seleccionar Usuario de la Dirección')
 
-not_run: WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Object Repository/Pedidos/Crear Pedido Base/Seleccionar usuario/span_Rol Cliente PPS'))
 
-not_run: WebUI.selectOptionByValue(findTestObject('null'), '4', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Pedidos/Crear Pedido Base/Seleccionar usuario/select_PropietarioPropietario - UsuarioInqu_2c236e'), 
+    '4', true)
 
-not_run: WebUI.delay(2)
+WebUI.click(findTestObject('Object Repository/Pedidos/Crear Pedido Base/Seleccionar usuario/div_Rol Cliente PPS UsuarioUsuario'))
 
-WebUI.click(findTestObject('Pedidos/Crear Pedido Base/span_Guardar  Guarde Pedido'))
+not_run: WebUI.click(findTestObject('Object Repository/Pedidos/Crear Pedido Base/span_Guardar  Guarde Pedido'))
 
 not_run: WebUI.closeBrowser()
 

@@ -3,7 +3,7 @@
    <description></description>
    <name>iframe_Abra este formulario en el editor de_0ff97b</name>
    <tag></tag>
-   <elementGuidId>366846fc-5541-47e2-8515-618efca96850</elementGuidId>
+   <elementGuidId>2bc8efe5-6be8-4be0-a1fd-0ff8dad45438</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -59,7 +59,7 @@
       <matchCondition>equals</matchCondition>
       <name>cd_frame_id_</name>
       <type>Main</type>
-      <value>ed3efb27e5e682fbd5ad62039d65396f</value>
+      <value>6333bc5029b650138285bf6c1435a52a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

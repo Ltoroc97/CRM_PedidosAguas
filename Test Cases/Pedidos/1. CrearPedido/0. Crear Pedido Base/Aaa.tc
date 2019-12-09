@@ -3,11 +3,6 @@
    <description></description>
    <name>Aaa</name>
    <tag></tag>
-   <comment>Seleccionar Oferta por Negocio
-Selección Cliente
-Ingresar dirección
-Seleccionar Usuario de la Dirección
-Seleccionar Oficina de Atención
-Seleccionar Medio</comment>
+   <comment></comment>
    <testCaseGuid>0da35053-bb9f-4bb3-a6c9-b857efe23af1</testCaseGuid>
 </TestCaseEntity>

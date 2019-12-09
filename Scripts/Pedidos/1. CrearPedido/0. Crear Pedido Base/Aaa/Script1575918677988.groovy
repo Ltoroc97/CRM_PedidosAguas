@@ -16,7 +16,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Pedidos/1. CrearPedido/0. Crear Pedido Base/IngresoModulo_Pedidos'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
 
-WebUI.callTestCase(findTestCase('Pedidos/1. CrearPedido/0. Crear Pedido Base/SeleccionarBoton_Nuevo'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('null'))
+
+WebUI.selectOptionByValue(findTestObject('null'), 
+    '2', true)
+
+WebUI.selectOptionByValue(findTestObject('null'), 
+    '3', true)
+
+WebUI.selectOptionByValue(findTestObject('null'), 
+    '4', true)
+
+WebUI.closeBrowser()
 
