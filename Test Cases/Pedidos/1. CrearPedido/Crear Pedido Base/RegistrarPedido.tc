@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RegistrarPedido</name>
+   <tag></tag>
+   <comment>Seleccionar Cliente
+Ingresar Dirección
+Seleccionar titular de la dirección
+Seleccionar punto de Atención
+Seleccionar Medio</comment>
+   <testCaseGuid>bdaa391a-4b26-45d3-91af-9bb35df4f0fa</testCaseGuid>
+</TestCaseEntity>

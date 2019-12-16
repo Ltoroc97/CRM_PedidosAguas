@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>CrearPedido_Exitoso</name>
+   <name>MoficarPedido_Correctamente</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -9,17 +9,17 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>cc559ab8-648a-4645-8641-b565ed956509</testSuiteGuid>
+   <testSuiteGuid>36d5c360-0c55-4d39-87e4-a4e002ecfd17</testSuiteGuid>
    <testCaseLink>
-      <guid>c15e8e1a-ab42-4768-87c6-f61db9f6c509</guid>
+      <guid>e1e085b4-921a-4654-a014-f595f0bbe028</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Pedidos/1. CrearPedido/Crear Pedido Base/IngresoModulo_Pedidos</testCaseId>
+      <testCaseId>Test Cases/Pedidos/2. ConsultarPedido/2.1 ModificarPedido/SeleccionarRegistro_Modificar</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>e15001b4-f94c-4392-b848-365fd4e96abc</guid>
+      <guid>6187f496-8880-4806-9cb6-74e373b5c42b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Pedidos/1. CrearPedido/Crear Pedido Base/SeleccionarBoton_Nuevo</testCaseId>
+      <testCaseId>Test Cases/Pedidos/2. ConsultarPedido/2.1 ModificarPedido/Modificar Informacion</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
